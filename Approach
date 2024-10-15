@@ -1,0 +1,23 @@
+1. Import required libraries:
+
+. Start with importing necessary libraries: pandas, numpy, seaborn, and matplotlib.pyplot
+. These libraries deal with data and contain various functions to generate random numbers. 
+
+2. Generate Random Data:   
+. Introduce a list of categories to your social media data
+. Use pandas.date_range to generate a date range. Then use np.random.randint to generate random entries for categories and likes.
+. Start with a dictionary populated with the keys 'Date', 'Category', and 'Likes'. This dictionary should be filled with data generated for this exact usage.
+
+3) Load this generated data into a Pandas DataFrame for manipulation and analysis:
+In order to proceed, one must first create a DataFrame utilizing the data dictionary that has been generated.
+. Print out the head, info, and description of your DataFrame for better understanding of the data.
+. Use function value_counts() to print the count for each unique category.
+
+4. Move to Data Cleaning.
+. First, remove null values and duplicates of the data frame by using appropriate methods from the pandas library.
+. Then, convert 'Date' column to datetime format and change 'Likes' column to integers to represent the data properly.
+
+5) Data Visualization and Analysis
+. Start by looking at a histogram that shows how the 'Likes' data is distributed across ranges.
+  To further illustrate the distribution of likes across different categories, it is really necessary to produce a box plot to capture such information visually.
+. First, calculate the overall mean number of likes and group by category to find the average likes per category
