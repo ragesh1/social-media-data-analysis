@@ -1,0 +1,5 @@
+The code does a very good job in fulfilling its intended purpose, as generation, manipulation, and visualization of social media data are accomplished smoothly. Different libraries have been imported into the code that makes each specific task easy and helpful in order to achieve better functionality and usability.
+
+. Other libraries used to come up with this dataset include random and numpy which are the ones that generate the random data.
+
+. The DataFrame itself is some sort of skeleton for an analysis and this gives cleaning methodology to the Data to ensure the validity of the data. Visualization process, especially using tools seaborn and matplotlib, reveals important information in regard to user engagement. This includes the following: which categories get the most likes, and how these categories compare to each other, statistically.
